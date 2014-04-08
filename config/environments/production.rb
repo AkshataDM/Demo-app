@@ -72,6 +72,8 @@ DemoApp::Application.configure do
   # Send deprecation notices to registered listeners.
   config.active_support.deprecation = :notify
 
+   config.force_ssl = true
+
   # Disable automatic flushing of the log to improve performance.
   # config.autoflush_log = false
 
